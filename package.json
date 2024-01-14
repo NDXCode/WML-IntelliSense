@@ -1,0 +1,35 @@
+{
+  "name": "wml-intellisense",
+  "displayName": "WML IntelliSense",
+  "publisher": "NDXCode",
+  "icon": "./icon.png",
+  "description": "IntelliSense for WML (Wireless Markup Language)",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Programming Languages",
+    "Snippets"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "wml",
+      "aliases": ["Wireless Markup Language", "wml"],
+      "extensions": [".wml"],
+      "configuration": "./language-configuration.json"
+    }],
+    "snippets": [
+      {
+        "language": "wml",
+        "path": "./snippets.json"
+      }
+    ],
+    "grammars": [{
+      "language": "wml",
+      "scopeName": "text.xml",
+      "path": "./syntaxes/xml.tmLanguage.json"
+    }]
+ 
+  }
+}

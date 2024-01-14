@@ -1,0 +1,434 @@
+{
+    "Card Tag": {
+        "prefix": "card",
+        "body": ["<card>", "\t$0", "</card>"],
+        "description": "Defines a card in a deck"
+    },
+    "Paragraph Tag": {
+        "prefix": "p",
+        "body": ["<p>$0</p>"],
+        "description": "Defines a paragraph"
+    },
+    "WML Root": {
+        "prefix": "wml",
+        "body": ["<wml>", "\t$0", "</wml>"],
+        "description": "Defines a WML deck (WML root)"
+    },
+    "WML Snippet": {
+        "prefix": "WML:Snippet",
+        "body": ["<?xml version=\"1.0\"?>", "<!DOCTYPE wml PUBLIC \"-//WAPFORUM//DTD WML 1.3//EN\" \"http://www.wapforum.org/DTD/wml13.dtd\">", "<wml>", "\t$0", "</wml>"],
+        "description": "Insert a WML snippet"
+    },
+    "Head Tag": {
+        "prefix": "head",
+        "body": ["<head>", "\t$0", "</head>"],
+        "description": "Defines head information"
+    },
+    "Meta Tag": {
+        "prefix": "meta",
+        "body": ["<meta$0/>"],
+        "description": "Defines meta information"
+    },
+    "Access Tag": {
+        "prefix": "access",
+        "body": ["<access$0/>"],
+        "description": "Defines information about the access control of a deck"
+    },
+    "Template Tag": {
+        "prefix": "template",
+        "body": ["<template>", "\t$0", "</template>"],
+        "description": "Defines a code template for all the cards in a deck"
+    },
+    "Line Break Tag": {
+        "prefix": "br",
+        "body": ["<br />$0"],
+        "description": "Defines a line break"
+    },
+    "Table Tag": {
+        "prefix": "table",
+        "body": ["<table>", "\t$0", "</table>"],
+        "description": "Defines a line break"
+    },
+    "Table Cell Tag": {
+        "prefix": "td",
+        "body": ["<td>$0</td>"],
+        "description": "Defines a table cell (table data)"
+    },
+    "Table Row Tag": {
+        "prefix": "tr",
+        "body": ["<tr>$0</tr>"],
+        "description": "Defines a table row"
+    },
+    "Preformatted Text Tag": {
+        "prefix": "pre",
+        "body": ["<pre>$0</pre>"],
+        "description": "Defines preformatted text"
+    },
+    "Bold Text Tag": {
+        "prefix": "b",
+        "body": ["<b>$0</b>"],
+        "description": "Defines bold text"
+    },
+    "Italic Text Tag": {
+        "prefix": "i",
+        "body": ["<i>$0</i>"],
+        "description": "Defines italic text"
+    },
+    "Big Text Tag": {
+        "prefix": "big",
+        "body": ["<big>$0</big>"],
+        "description": "Defines big text"
+    },
+    "Emphasized Text Tag": {
+        "prefix": "em",
+        "body": ["<em>$0</em>"],
+        "description": "Defines emphasized text"
+    },
+    "Small Text Tag": {
+        "prefix": "small",
+        "body": ["<small>$0</small>"],
+        "description": "Defines small text"
+    },
+    "Strong Text Tag": {
+        "prefix": "strong",
+        "body": ["<strong>$0</strong>"],
+        "description": "Defines strong text"
+    },
+    "Underlined Text Tag": {
+        "prefix": "u",
+        "body": ["<u>$0</u>"],
+        "description": "Defines underlined text"
+    },
+    "Image Tag": {
+        "prefix": "img",
+        "body": ["<img>$0</img>"],
+        "description": "Defines an image"
+    },
+    "Anchor (link) Tag": {
+        "prefix": "a",
+        "body": ["<a>$0</a>"],
+        "description": "Defines an anchor"
+    },
+    "Anchor Tag": {
+        "prefix": "anchor",
+        "body": ["<anchor>$0</anchor>"],
+        "description": "Defines an anchor"
+    },
+    "Do Tag": {
+        "prefix": "do",
+        "body": ["<do>", "\t$0", "</do>"],
+        "description": "Defines a do event handler"
+    },
+    "Onevent Tag": {
+        "prefix": "onevent",
+        "body": ["<onevent>", "\t$0", "</onevent>"],
+        "description": "Defines an onevent event handler"
+    },
+    "Postfield Tag": {
+        "prefix": "postfield",
+        "body": ["<postfield$0/>"],
+        "description": "Defines a postfield event handler"
+    },
+    "Ontimer Tag": {
+        "prefix": "ontimer",
+        "body": ["<onevent type=\"ontimer\">", "\t$0", "</onevent>"],
+        "description": "Defines an ontimer event handler"
+    },
+    "Onenterforward Tag": {
+        "prefix": "onenterforward",
+        "body": ["<onevent type=\"onenterforward\">", "\t$0", "</onevent>"],
+        "description": "Defines an onenterforward handler"
+    },
+    "Onenterbackward Tag": {
+        "prefix": "onenterbackward",
+        "body": ["<onevent type=\"onenterbackward\">", "\t$0", "</onevent>"],
+        "description": "Defines an onenterbackward handler"
+    },
+    "Onpick Tag": {
+        "prefix": "onpick",
+        "body": ["<option onpick=\"$0\"></option>"],
+        "description": "Defines an onpick event handler"
+    },
+    "Go Tag": {
+        "prefix": "go",
+        "body": ["<go href=\"$0\"/>"],
+        "description": "Represents the action of switching to a new card"
+    },
+    "No Operation Tag": {
+        "prefix": "noop",
+        "body": ["<noop/>$0"],
+        "description": "Says that nothing should be done"
+    },
+    "Previous Tag": {
+        "prefix": "prev",
+        "body": ["<prev/>$0"],
+        "description": "Represents the action of going back to the previous card"
+    },
+    "Refresh Tag": {
+        "prefix": "prev",
+        "body": ["<refresh>", "\t$0", "</refresh>"],
+        "description": "Refreshes some specified card variables"
+    },
+    "Input Tag": {
+        "prefix": "input",
+        "body": ["<input$0/>"],
+        "description": "Defines an input field"
+    },
+    "Select Tag": {
+        "prefix": "select",
+        "body": ["<select>", "\t$0","</select>"],
+        "description": "Defines a select group"
+    },
+    "Option Tag": {
+        "prefix": "option",
+        "body": ["<option value=\"\">$0</option>"],
+        "description": "Defines an option in a selectable list"
+    },
+    "Fieldset Tag": {
+        "prefix": "fieldset",
+        "body": ["<fieldset title=\"\">", "\t$0","</fieldset>"],
+        "description": "Defines a set of input fields"
+    },
+    "Option Group Tag": {
+        "prefix": "optgroup",
+        "body": ["<optgroup title=\"\">", "\t$0","</optgroup>"],
+        "description": "Defines an option group in a selectable list"
+    },
+    "Setvar Tag": {
+        "prefix": "setvar",
+        "body": ["<setvar name=\"$0\" value=\"\"/>"],
+        "description": "Defines and sets a variable"
+    },
+    "Timer Tag": {
+        "prefix": "timer",
+        "body": ["<timer value=\"$0\"/>"],
+        "description": "Defines a timer"
+    },
+    "Id Attribute": {
+        "prefix": "id",
+        "body": ["id=\"\""],
+        "description": "Give the item a name that can be referred to later"
+    },
+    "Class Attribute": {
+        "prefix": "class",
+        "body": ["class=\"\""],
+        "description": "Specifies a class name for the element (so they can be grouped)"
+    },
+    "Name Attribute": {
+        "prefix": "name",
+        "body": ["name=\"\""],
+        "description": "Gives the name of this property"
+    },
+    "Http-Equiv Attribute": {
+        "prefix": "http-equiv",
+        "body": ["http-equiv=\"\""],
+        "description": "An alternative for the name attribute"
+    },
+    "Forua Attribute": {
+        "prefix": "forua",
+        "body": ["forua=\"\""],
+        "description": "If present and set to true, indicates that the property is intended for the use of the browser"
+    },
+    "Content Attribute": {
+        "prefix": "content",
+        "body": ["content=\"\""],
+        "description": "Should specify a description of the name attribute"
+    },
+    "Scheme Attribute": {
+        "prefix": "scheme",
+        "body": ["scheme=\"\""],
+        "description": "Can specify a format or structure that some properties may need to interpret their values. This attribute is used by few properties"
+    },
+    "Title Attribute": {
+        "prefix": "title",
+        "body": ["title=\"\""],
+        "description": "Gives a title to this card. This title is displayed in some way by the browser when the card is visible"
+    },
+    "Newcontext Attribute": {
+        "prefix": "newcontext",
+        "body": ["newcontext=\"\""],
+        "description": "Specifies that when this card is entered, the browser context should be cleared"
+    },
+    "Ordered Attribute": {
+        "prefix": "ordered",
+        "body": ["ordered=\"\""],
+        "description": "Provides a hint to the browser about how the card is organized"
+    },
+    "Onenterforward Attribute": {
+        "prefix": "onenterforward",
+        "body": ["onenterforward=\"\""],
+        "description": "Occurs when the user navigates into a card using a \"go\" task"
+    },
+    "Onenterbackward Attribute": {
+        "prefix": "onenterbackward",
+        "body": ["onenterbackward=\"\""],
+        "description": "Occurs when the user navigates into a card using a \"prev\" task"
+    },
+    "Ontimer Attribute": {
+        "prefix": "ontimer",
+        "body": ["ontimer=\"\""],
+        "description": "Occurs when a \"timer\" expires"
+    },
+    "Language Attribute": {
+        "prefix": "xml:lang",
+        "body": ["xml:lang=\"\""],
+        "description": "Sets the language used in the element"
+    },
+    "Domain Attribute": {
+        "prefix": "domain",
+        "body": ["domain=\"\""],
+        "description": "Specifies the domain (effectively, the range of servers) from which the referring deck must come"
+    },
+    "Path Attribute": {
+        "prefix": "path",
+        "body": ["path=\"\""],
+        "description": "Specifies the path within the referring URL that must match"
+    },
+    "Align Attribute": {
+        "prefix": "align",
+        "body": ["align=\"\""],
+        "description": "This is used to change the horizontal alignment of a paragraph"
+    },
+    "Mode Attribute": {
+        "prefix": "mode",
+        "body": ["mode=\"\""],
+        "description": "Sets whether a paragraph should wrap lines or not"
+    },
+    "Columns Attribute": {
+        "prefix": "columns",
+        "body": ["columns=\"\""],
+        "description": "Sets the number of columns in the table"
+    },
+    "Alt Attribute": {
+        "prefix": "alt",
+        "body": ["alt=\"\""],
+        "description": "Sets an alternate text to be displayed if the image is not displayed"
+    },
+    "Height Attribute": {
+        "prefix": "height",
+        "body": ["height=\"\""],
+        "description": "Height of the element in pixels or percentage"
+    },
+    "Hspace Attribute": {
+        "prefix": "hspace",
+        "body": ["hspace=\"\""],
+        "description": "Sets white space to the left and right of the element"
+    },
+    "Localsrc Attribute": {
+        "prefix": "localsrc",
+        "body": ["localsrc=\"\""],
+        "description": "Sets an alternate representation for the element"
+    },
+    "Src Attribute": {
+        "prefix": "src",
+        "body": ["src=\"\""],
+        "description": "A path to the source file"
+    },
+    "Vspace Attribute": {
+        "prefix": "vspace",
+        "body": ["vspace=\"\""],
+        "description": "Sets white space above and below the element"
+    },
+    "Width Attribute": {
+        "prefix": "width",
+        "body": ["width=\"\""],
+        "description": "Sets the width of the element"
+    },
+    "Href Attribute": {
+        "prefix": "href",
+        "body": ["href=\"\""],
+        "description": "Defines URL of the liked page"
+    },
+    "Label Attribute": {
+        "prefix": "label",
+        "body": ["label=\"\""],
+        "description": "Sets a label for the element"
+    },
+    "Type Attribute": {
+        "prefix": "type",
+        "body": ["type=\"\""],
+        "description": "Defines the type of the element"
+    },
+    "Value Attribute": {
+        "prefix": "value",
+        "body": ["value=\"\""],
+        "description": "Specifies the value of the element"
+    },
+    "Method Attribute": {
+        "prefix": "method",
+        "body": ["method=\"\""],
+        "description": "Specifies the method that should be used to fetch the deck"
+    },
+    "Sendreferer Attribute": {
+        "prefix": "sendreferer",
+        "body": ["sendreferer=\"\""],
+        "description": "If set to true, the browser sends the URL of the current deck along with the request"
+    },
+    "Accept-Charset Attribute": {
+        "prefix": "accept-charset",
+        "body": ["accept-charset=\"\""],
+        "description": "Specifies a comma- or space-separated list of character sets that can encode data sent to the server in a POST request"
+    },
+    "Maxlenght Attribute": {
+        "prefix": "maxlength",
+        "body": ["maxlength=\"\""],
+        "description": "Sets the maximum number of characters the user can enter in the field"
+    },
+    "Emptyok Attribute": {
+        "prefix": "emptyok",
+        "body": ["emptyok=\"\""],
+        "description": "Sets whether the user can leave the input field blank or not"
+    },
+    "Format Attribute": {
+        "prefix": "format",
+        "body": ["format=\"\""],
+        "description": "Sets the data format for the input field"
+    },
+    "Size Attribute": {
+        "prefix": "size",
+        "body": ["size=\"\""],
+        "description": "Sets the width of the input field"
+    },
+    "Tabindex Attribute": {
+        "prefix": "tabindex",
+        "body": ["tabindex=\"\""],
+        "description": "Sets the tabbing position for the select element"
+    },
+    "Iname Attribute": {
+        "prefix": "iname",
+        "body": ["iname=\"\""],
+        "description": "Names the variable that is set with the index result of the selection"
+    },
+    "Ivalue Attribute": {
+        "prefix": "ivalue",
+        "body": ["ivalue=\"\""],
+        "description": "Sets the pre-selected option element"
+    },
+    "Multiple Attribute": {
+        "prefix": "multiple",
+        "body": ["multiple=\"\""],
+        "description": "Sets whether multiple items can be selected"
+    },
+    "True value": {
+        "prefix": "true",
+        "body": ["true"],
+        "description": "Defines the value true"
+    },
+    "False value": {
+        "prefix": "false",
+        "body": ["false"],
+        "description": "Defines the value false"
+    },
+    "Text value": {
+        "prefix": "text",
+        "body": ["text"],
+        "description": "Defines the value text"
+    },
+    "Password value": {
+        "prefix": "password",
+        "body": ["password"],
+        "description": "Defines the value password"
+    }
+
+ }
+ 
